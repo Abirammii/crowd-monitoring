@@ -5,7 +5,7 @@ The system continuously monitors video feeds—either from CCTV  live streams—
 To evaluate the system’s effectiveness, this project includes a comprehensive benchmark analysis comparing YOLOv11’s performance against YOLOv10 under identical conditions.
 ## Problem Statement
 Crowding in public areas like transportation centers, retail outlets, event locations, and urban streets poses major issues concerning safety, security, and operational effectivess. when many induviduals come together in a limited space without sufficient oversight and regulation, the dangers can increase quikly.
-## System Archietecture
+## Propose System Archietecture
 
 ![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/system%20archietecturreee.jpg)
 ## Theoretical Description:
@@ -29,6 +29,7 @@ This project monitors crowd density using YOLOv11, analyzing real-time performan
 - Data is graphed & stored in Excel for analysis.
 - YOLOv11 vs. YOLOv10 comparison evaluates speed & accuracy improvements.
 ## crowd detection 
+
 
 
 

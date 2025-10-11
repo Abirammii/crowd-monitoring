@@ -58,7 +58,7 @@ Inference time and frame processing time of V10 is better when compared to v11
 
 ### People Count graph
 
-![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/20count.png)
+![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/crowd%20count.png)
 
 |    Frame    |  2  |  3  |  4  |  5  |  6  |
 | :---------: | :-: | :-: | :-: | :-: | :-: |

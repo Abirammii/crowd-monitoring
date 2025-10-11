@@ -28,10 +28,20 @@ This project monitors crowd density using YOLOv11, analyzing real-time performan
     - SMS alert sent (Twilio).
 - Data is graphed & stored in Excel for analysis.
 - YOLOv11 vs. YOLOv10 comparison evaluates speed & accuracy improvements.
-## Crowd Detection Output
+## YOLO V11 Crowd Detection Output
 
 ![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/crowd%20detect.png)
+### Observations
+- The figure shows YOLOv11-based crowd detection across three different video scenes.
+- Detected persons and objects are highlighted with bounding boxes — 🟦 Blue boxes for persons and 🟩 Green boxes for other objects.
+- The total number of detected persons and objects is displayed at the top of each frame for real-time monitoring.
+- Bounding boxes are well-aligned and consistent, confirming YOLOv11’s strong detection accuracy for both small and overlapping objects.
 ## Graph Analysis and Benchmark comparison
+### YOLO V11 Graph
+![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/11vbench.png)
+### YOLO V10 Graph
+![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/10vbench.png)
+
 ### Inference Time Comparison
 |       Frame       |    5   |    6   |    7   |    8   |    9   |
 | :---------------: | :----: | :----: | :----: | :----: | :----: |
@@ -45,11 +55,6 @@ This project monitors crowd density using YOLOv11, analyzing real-time performan
 | **YOLOv10 (sec)** | 0.2656 | 0.2606 | 0.2816 | 0.2636 | 0.2558 |
 
 Inference time and frame processing time of V10 is better when compared to v11
-
-### YOLO V11 Graph
-![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/11vbench.png)
-### YOLO V10 Graph
-![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/10vbench.png)
 
 ### People Count graph
 

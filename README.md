@@ -7,7 +7,7 @@ To evaluate the system’s effectiveness, this project includes a comprehensive 
 Crowding in public areas like transportation centers, retail outlets, event locations, and urban streets poses major issues concerning safety, security, and operational effectivess. when many induviduals come together in a limited space without sufficient oversight and regulation, the dangers can increase quikly.
 ## System Archietecture
 
-![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/crowd_detection_benchmark.xlsx)
+![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/system%20archietecturreee.jpg)
 ## Theoretical Description:
 This project monitors crowd density using YOLOv11, analyzing real-time performance and benchmarking it against YOLOv10. It integrates Arduino-controlled buzzer & LED alerts and Twilio SMS notifications for high crowd levels.
 ## Tools and technolies used

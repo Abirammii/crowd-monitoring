@@ -31,11 +31,29 @@ This project monitors crowd density using YOLOv11, analyzing real-time performan
 ## Crowd Detection Output
 
 ![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/crowd%20detect.png)
-## Graph Analysis
+## Graph Analysis and Benchmark comparison
+### Inference Time Comparison
+|       Frame       |    5   |    6   |    7   |    8   |    9   |
+| :---------------: | :----: | :----: | :----: | :----: | :----: |
+| **YOLOv11 (sec)** | 0.2557 | 0.4282 | 0.2266 | 0.2990 | 0.3959 |
+| **YOLOv10 (sec)** | 0.2451 | 0.2435 | 0.2656 | 0.2489 | 0.2398 |
+
+### Frame Processing Time Comparison
+|       Frame       |    5   |    6   |    7   |    8   |    9   |
+| :---------------: | :----: | :----: | :----: | :----: | :----: |
+| **YOLOv11 (sec)** | 0.2743 | 0.2628 | 0.2486 | 0.3210 | 0.4278 |
+| **YOLOv10 (sec)** | 0.2656 | 0.2606 | 0.2816 | 0.2636 | 0.2558 |
+
+Inference time and frame processing time of V10 is better when compared to v11
+
 ### YOLO V11 Graph
 ![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/11vbench.png)
 ### YOLO V10 Graph
 ![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/10vbench.png)
+
+
+
+
 
 
 

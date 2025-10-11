@@ -31,6 +31,9 @@ This project monitors crowd density using YOLOv11, analyzing real-time performan
 ## Crowd Detection Output
 
 ![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/crowd%20detect.png)
+## Graph Analysis
+### YOLO V11 Graph
+![Dashboard preview]()
 
 
 

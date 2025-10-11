@@ -51,6 +51,28 @@ Inference time and frame processing time of V10 is better when compared to v11
 ### YOLO V10 Graph
 ![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/10vbench.png)
 
+### People Count graph
+
+![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/20count.png)
+
+|    Frame    |  2  |  3  |  4  |  5  |  6  |
+| :---------: | :-: | :-: | :-: | :-: | :-: |
+| **YOLOv11** |  3  |  74 | 105 | 113 | 138 |
+| **YOLOv10** |  3  |  49 |  50 |  57 |  55 |
+
+- In the detection part, the YOLO V11 model is more efficient
+- The project focuses on accuracy than the processing time. So, we’ve used the YOLO V11 model as our primary
+## Final Result Comparison
+
+| **Frame**                           | **YOLOv11** | **YOLOv10** | **Best Choice** |
+| :---------------------------------- | :---------: | :---------: | :-------------: |
+| **People Count**                    |     High    |     Low     |   **YOLOv11**   |
+| **Inference Time**                  |     High    |     Low     |   **YOLOv10**   |
+| **Frame Processing Time**           |     High    |     Low     |   **YOLOv10**   |
+| **Overall Performance (Detection)** |    Better   |     Weak    |   **YOLOv11**   |
+
+- This project prioritizes detection accuracy over speed.
+- Hence, YOLOv11 is the better choice in this scenario, as it delivers superior detection performance even though it requires slightly more processing time.
 
 
 

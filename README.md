@@ -9,7 +9,10 @@ Crowding in public areas like transportation centers, retail outlets, event loca
 
 ![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/system%20archietecturreee.jpg)
 ## Theoretical Description:
-This project monitors crowd density using YOLOv11, analyzing real-time performance and benchmarking it against YOLOv10. It integrates Arduino-controlled buzzer & LED alerts and Twilio SMS notifications for high crowd levels.
+- This project focuses on real-time crowd density monitoring using the YOLOv11 object detection model. The system captures live video streams and detects people within each frame to calculate crowd levels accurately.
+- It evaluates real-time performance parameters such as processing time, inference time, FPS, and people count. The YOLOv11 model is benchmarked against YOLOv10 to compare improvements in accuracy, speed, and detection efficiency.
+- When the detected crowd exceeds a predefined threshold, the system triggers multiple alerts. An Arduino module activates a buzzer and LED for on-site notification, while a Twilio API sends SMS alerts to concerned authorities for remote monitoring.
+- Additionally, all performance and detection data are stored in Excel and visualized through graphs to assist in performance analysis and system optimization.
 ## Tools and technolies used
 | **Technology / Tool**   | **Purpose**                                                              |
 | ----------------------- | ------------------------------------------------------------------------ |

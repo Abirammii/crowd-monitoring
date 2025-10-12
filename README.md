@@ -4,7 +4,7 @@ The Crowd Monitoring System Using YOLOv11 is an advanced real-time people detect
 The system continuously monitors video feeds either from CCTV  live streams—to identify and count individuals, track movement patterns, and analyze crowd density. Its real-time capability enables authorities or organizations to detect overcrowding
 To evaluate the system’s effectiveness, this project includes a comprehensive benchmark analysis comparing YOLOv11’s performance against YOLOv10 under identical conditions.
 ## Problem Statement
-Crowding in public areas like transportation centers, retail outlets, event locations, and urban streets poses major issues concerning safety, security, and operational effectivess. when many induviduals come together in a limited space without sufficient oversight and regulation, the dangers can increase quikly.
+Crowding in public areas such as transportation hubs, retail outlets, event venues, and urban streets poses significant challenges related to safety, security, and operational effectiveness. When a large number of individuals gather within a confined space without proper monitoring or regulation, the risks of accidents, panic situations, and security breaches increase rapidly. Lack of real-time surveillance and automated alert mechanisms often delays response actions, leading to potential harm or disruption. Therefore, there is a critical need for an intelligent system capable of accurately detecting and analyzing crowd density in real time, ensuring timely alerts and preventive measures to maintain safety and order in high-density public environments.
 ## Propose System Archietecture
 
 ![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/system%20archietecturreee.jpg)

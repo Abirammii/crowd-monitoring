@@ -34,8 +34,6 @@ Crowding in public areas such as transportation hubs, retail outlets, event venu
 - YOLOv11 vs. YOLOv10 comparison evaluates speed & accuracy improvements.
 ## YOLO V11 Crowd Detection Output
 ### Project Demo Video
-![Demo](mall.avi)
-
 
 <img width="1006" height="275" alt="image" src="https://github.com/user-attachments/assets/20810273-7443-4780-92d1-cd030f401afb" />
 

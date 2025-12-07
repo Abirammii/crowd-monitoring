@@ -7,7 +7,8 @@ To evaluate the system’s effectiveness, this project includes a comprehensive 
 Crowding in public areas such as transportation hubs, retail outlets, event venues, and urban streets poses significant challenges related to safety, security, and operational effectiveness. When a large number of individuals gather within a confined space without proper monitoring or regulation, the risks of accidents, panic situations, and security breaches increase rapidly. Lack of real-time surveillance and automated alert mechanisms often delays response actions, leading to potential harm or disruption. Therefore, there is a critical need for an intelligent system capable of accurately detecting and analyzing crowd density in real time, ensuring timely alerts and preventive measures to maintain safety and order in high-density public environments.
 ## Propose System Archietecture
 
-![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/system%20archietecturreee.jpg)
+<img width="712" height="404" alt="image" src="https://github.com/user-attachments/assets/4c634381-7b41-4eb0-a7fb-cc7db4b62cee" />
+
 ## Theoretical Description:
 - This project focuses on real-time crowd density monitoring using the YOLOv11 object detection model. The system captures live video streams and detects people within each frame to calculate crowd levels accurately.
 - It evaluates real-time performance parameters such as processing time, inference time, FPS, and people count. The YOLOv11 model is benchmarked against YOLOv10 to compare improvements in accuracy, speed, and detection efficiency.
@@ -33,7 +34,8 @@ Crowding in public areas such as transportation hubs, retail outlets, event venu
 - YOLOv11 vs. YOLOv10 comparison evaluates speed & accuracy improvements.
 ## YOLO V11 Crowd Detection Output
 
-![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/crowd%20detect.png)
+<img width="1006" height="275" alt="image" src="https://github.com/user-attachments/assets/20810273-7443-4780-92d1-cd030f401afb" />
+
 ### Observations
 - The figure shows YOLOv11-based crowd detection across three different video scenes.
 - Detected persons and objects are highlighted with bounding boxes — 🟦 Blue boxes for persons and 🟩 Green boxes for other objects.
@@ -63,7 +65,8 @@ Inference time and frame processing time of V10 is better when compared to v11
 
 ### People Count graph
 
-![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/crowd%20count.png)
+<img width="593" height="350" alt="image" src="https://github.com/user-attachments/assets/347cd377-1dbf-4972-b6b1-6cb34df98334" />
+
 
 |    Frame    |  2  |  3  |  4  |  5  |  6  |
 | :---------: | :-: | :-: | :-: | :-: | :-: |

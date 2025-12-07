@@ -41,7 +41,8 @@ Crowding in public areas such as transportation hubs, retail outlets, event venu
 - Bounding boxes are well-aligned and consistent, confirming YOLOv11’s strong detection accuracy for both small and overlapping objects.
 ## Graph Analysis and Benchmark comparison
 ### YOLO V11 Graph
-![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/11vbench.png)
+<img width="1200" height="600" alt="Yolo V11 bench graph" src="https://github.com/user-attachments/assets/f59a6556-10c8-4eab-9557-7c53bba00f49" />
+
 ### YOLO V10 Graph
 <img width="1200" height="500" alt="Yolo V10 bench graph" src="https://github.com/user-attachments/assets/d146c383-13aa-4189-b22e-3c058e6790bf" />
 

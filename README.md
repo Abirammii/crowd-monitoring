@@ -43,7 +43,8 @@ Crowding in public areas such as transportation hubs, retail outlets, event venu
 ### YOLO V11 Graph
 ![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/11vbench.png)
 ### YOLO V10 Graph
-![Dashboard preview](https://github.com/Abirammii/crowd-monitoring/blob/main/10vbench.png)
+<img width="1200" height="500" alt="Yolo V10 bench graph" src="https://github.com/user-attachments/assets/d146c383-13aa-4189-b22e-3c058e6790bf" />
+
 
 ### Inference Time Comparison
 |       Frame       |    5   |    6   |    7   |    8   |    9   |

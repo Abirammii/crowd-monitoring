@@ -4,7 +4,17 @@ The Crowd Monitoring System Using YOLOv11 is an advanced real-time people detect
 The system continuously monitors video feeds either from CCTV  live streams—to identify and count individuals, track movement patterns, and analyze crowd density. Its real-time capability enables authorities or organizations to detect overcrowding
 To evaluate the system’s effectiveness, this project includes a comprehensive benchmark analysis comparing YOLOv11’s performance against YOLOv10 under identical conditions.
 ## Problem Statement
-Crowding in public areas such as transportation hubs, retail outlets, event venues, and urban streets poses significant challenges related to safety, security, and operational effectiveness. When a large number of individuals gather within a confined space without proper monitoring or regulation, the risks of accidents, panic situations, and security breaches increase rapidly. Lack of real-time surveillance and automated alert mechanisms often delays response actions, leading to potential harm or disruption. Therefore, there is a critical need for an intelligent system capable of accurately detecting and analyzing crowd density in real time, ensuring timely alerts and preventive measures to maintain safety and order in high-density public environments.
+The **Maha Kumbh Mela 2025** in **Prayagraj** attracts millions of pilgrims, making real-time crowd monitoring a major challenge for authorities. Traditional surveillance methods relying on manual CCTV monitoring and on-ground personnel are often inefficient in accurately estimating crowd density or detecting sudden crowd surges. This limitation can increase the risk of overcrowding, congestion, and delayed emergency response during large gatherings, highlighting the need for an automated and intelligent crowd monitoring system to improve safety and crowd management.
+
+## Proposed Solution
+
+To address this challenge, this project presents a **real-time crowd monitoring system using YOLOv11**, designed to automatically detect individuals from live video streams and estimate crowd density.
+
+The system performs a benchmark analysis comparing YOLOv11 and YOLOv10, evaluating performance metrics such as **inference speed, frame processing time, and people detection accuracy** to identify the most suitable model for real-time deployment.
+
+To enhance practical usability, the solution integrates Arduino-based alert mechanisms (buzzer and LED) and automated SMS notifications using the Twilio API, enabling authorities to receive immediate alerts when crowd density exceeds predefined thresholds.
+
+This approach demonstrates how computer vision and automated alert systems can improve crowd management, enhance public safety, and support real-time decision-making in high-density environments.
 ## Propose System Archietecture
 
 <img width="712" height="404" alt="image" src="https://github.com/user-attachments/assets/4c634381-7b41-4eb0-a7fb-cc7db4b62cee" />
